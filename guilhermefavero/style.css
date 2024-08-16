@@ -1,14 +1,16 @@
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-fundo: #5d2ecc ;
+    --cor-principal: #3c2492 ;
+    --cor-secundaria: #461db6; 
+    --cor-destaque: #fcf9f9;
+    --cor-texto: #ffffff;
 
 }
 
 body {
-    background-color: var(--cor-fundo);
+    background-image: url("./jobors2.jpg");
+    
+    
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
@@ -35,6 +37,7 @@ button {
     border-radius: 15px;
     padding: 15px;
     transition: background-color 0.3s;
+    margin:5px;
 }
 
 button:hover{

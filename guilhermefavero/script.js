@@ -6,15 +6,24 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "qual sua cor favortita??",
+        enunciado: "qual sua cor favortita?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Branco",
+                afirmacao: "Bruno Bucchiarachi"
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Marrom",
+                afirmacao: "Gyro Zeppeli"
+            }
+            ,
+            {
+                texto: "Verde",
+                afirmacao: "Noriaki Kakyoin"
+            },
+            {
+                texto: "Preto",
+                afirmacao: "Okuyasu Nijimura"
             }
         ]
     },
@@ -23,11 +32,20 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Viajar com os amigos",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                afirmacao: "Noriaki Kakyoin"
             },
             {
                 texto: "Andar a cavalo",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "Gyro Zeppeli"
+            }
+            ,
+            {
+                texto: "Gastar",
+                afirmacao: "Okuyasu Nijimura"
+            },
+            {
+                texto: "Pescar",
+                afirmacao: "Bruno Bucchiarachi"
             }
         ]
     },
@@ -36,11 +54,20 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Macarrão com tinta de lula",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                afirmacao: "Okuyasu Nijimura"
             },
             {
                 texto: "Cereja",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                afirmacao: "Noriaki Kakyoin"
+            }
+            ,
+            {
+                texto: "Buccellati",
+                afirmacao: "Bruno Bucchiarachi"
+            },
+            {
+                texto: "Pizza de mussarela",
+                afirmacao: "Gyro Zeppeli"
             }
         ]
     },
@@ -49,11 +76,20 @@ const perguntas = [
         alternativas: [
             {
                 texto: "cachorro pug",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                afirmacao: "Noriaki Kakyoin"
             },
             {
-                texto: "Àguia",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Tartaruga",
+                afirmacao: "Bruno Bucchiarachi"
+            }
+            ,
+            {
+                texto: "Peixe",
+                afirmacao: "Okuyasu Nijimura"
+            },
+            {
+                texto: "Cavalo",
+                afirmacao: "Gyro Zeppeli"
             }
         ]
     },
@@ -61,12 +97,21 @@ const perguntas = [
         enunciado: "Qual sua banda de rock favorita?",
         alternativas: [
             {
-                texto: "Red Hot Chilie Peppers",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "The Hand",
+                afirmacao: "Okuyasu Nijimura"
             },
             {
-                texto: "Queen",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "hierophant green",
+                afirmacao: "Noriaki Kakyoin"
+            }
+            ,
+            {
+                texto: "Sticky Fingers",
+                afirmacao: "Bruno Bucchiarachi"
+            },
+            {
+                texto: "Ballbreaker ",
+                afirmacao: "Gyro Zeppeli"
             }
         ]
     },
